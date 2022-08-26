@@ -6,7 +6,12 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.blanc{
+    color: #FFF;
+}
+.taille{
+    font-size: 15px;
+}
 .text-rajoute{
     font-size: 18px;
 }
@@ -1054,5 +1059,11 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .centrage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
